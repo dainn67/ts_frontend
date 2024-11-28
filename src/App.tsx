@@ -30,7 +30,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      <MainButton >Click me !</MainButton>
+      <MainButton onClick={() => {setCount(count + 1)}}>Increment me: {count}</MainButton>
     </>
   )
 }
